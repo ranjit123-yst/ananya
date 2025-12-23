@@ -1,0 +1,117 @@
+---
+import '../styles/global.css';
+import Logo from '../components/Logo';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Terms of Service for Persephone - The Feminine Platform Engineer." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Terms of Service | Persephone</title>
+  </head>
+  <body>
+    <header style="padding: 1.5rem; border-bottom: 1px solid var(--color-border);">
+      <a href="/" style="display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none;">
+        <Logo size={32} />
+        <span style="font-weight: 600;">Persephone</span>
+      </a>
+    </header>
+
+    <main class="legal-content">
+      <h1>Terms of Service.</h1>
+      <p class="last-updated">Last updated: December 2024.</p>
+
+      <h2>1. Acceptance of Terms.</h2>
+      <p>
+        By accessing and using Persephone ("the Service"), you accept and agree to be bound by these Terms of Service.
+        If you do not agree to these terms, you must not use the Service.
+        These terms apply to all users and visitors of the Service.
+      </p>
+
+      <h2>2. Description of Service.</h2>
+      <p>
+        Persephone is an AI-powered chat assistant that provides guidance on platform engineering, DevOps, cloud infrastructure, career development, and life advice.
+        The Service is provided "as is" and is powered by Anthropic's Claude AI technology with web search capabilities for grounded responses.
+      </p>
+
+      <h2>3. User Conduct.</h2>
+      <p>You agree not to use the Service to:</p>
+      <ul>
+        <li>Violate any applicable laws or regulations.</li>
+        <li>Transmit harmful, threatening, abusive, or offensive content.</li>
+        <li>Attempt to circumvent rate limits or other security measures.</li>
+        <li>Impersonate any person or entity.</li>
+        <li>Collect or harvest user data without authorization.</li>
+        <li>Interfere with or disrupt the Service or its infrastructure.</li>
+      </ul>
+
+      <h2>4. Rate Limiting.</h2>
+      <p>
+        The Service implements rate limiting to ensure fair usage for all users.
+        Each user is limited to 100 messages per day, calculated based on IP address.
+        Attempts to circumvent these limits may result in temporary or permanent access restrictions.
+      </p>
+
+      <h2>5. Intellectual Property.</h2>
+      <p>
+        All content, features, and functionality of the Service, including but not limited to the logo, design, and AI responses, are owned by Persephone and protected by intellectual property laws.
+        You may not reproduce, distribute, or create derivative works without explicit permission.
+      </p>
+
+      <h2>6. Disclaimer of Warranties.</h2>
+      <p>
+        The Service is provided on an "as is" and "as available" basis without warranties of any kind.
+        We do not guarantee the accuracy, completeness, or reliability of any information provided by the AI.
+        AI responses should be verified independently before being used for critical decisions.
+      </p>
+
+      <h2>7. Limitation of Liability.</h2>
+      <p>
+        In no event shall Persephone, its operators, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Service.
+        Our total liability shall not exceed one hundred dollars ($100).
+      </p>
+
+      <h2>8. Indemnification.</h2>
+      <p>
+        You agree to indemnify and hold harmless Persephone and its operators from any claims, damages, losses, or expenses arising out of your use of the Service or violation of these Terms.
+      </p>
+
+      <h2>9. Modifications to Terms.</h2>
+      <p>
+        We reserve the right to modify these Terms at any time.
+        Changes will be effective immediately upon posting.
+        Your continued use of the Service after changes constitutes acceptance of the modified Terms.
+      </p>
+
+      <h2>10. Termination.</h2>
+      <p>
+        We may terminate or suspend your access to the Service at any time, without prior notice, for any reason, including breach of these Terms.
+        Upon termination, your right to use the Service will immediately cease.
+      </p>
+
+      <h2>11. Governing Law.</h2>
+      <p>
+        These Terms shall be governed by and construed in accordance with applicable laws.
+        Any disputes arising under these Terms shall be resolved through binding arbitration.
+      </p>
+
+      <h2>12. Contact Information.</h2>
+      <p>
+        For questions about these Terms of Service, please contact us through the Service.
+        We will respond to inquiries within a reasonable timeframe.
+      </p>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; {new Date().getFullYear()} Persephone. All rights reserved.</p>
+      <nav class="footer-links" aria-label="Legal">
+        <a href="/terms">Terms of Service</a>
+        <a href="/privacy">Privacy Policy</a>
+      </nav>
+    </footer>
+  </body>
+</html>

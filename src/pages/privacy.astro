@@ -1,0 +1,147 @@
+---
+import '../styles/global.css';
+import Logo from '../components/Logo';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Privacy Policy for Persephone - The Feminine Platform Engineer." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Privacy Policy | Persephone</title>
+  </head>
+  <body>
+    <header style="padding: 1.5rem; border-bottom: 1px solid var(--color-border);">
+      <a href="/" style="display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none;">
+        <Logo size={32} />
+        <span style="font-weight: 600;">Persephone</span>
+      </a>
+    </header>
+
+    <main class="legal-content">
+      <h1>Privacy Policy.</h1>
+      <p class="last-updated">Last updated: December 2024.</p>
+
+      <h2>1. Introduction.</h2>
+      <p>
+        This Privacy Policy describes how Persephone ("we", "us", or "our") collects, uses, and protects your information when you use our AI chat service.
+        We are committed to protecting your privacy and ensuring transparency in our data practices.
+        By using the Service, you consent to the data practices described in this policy.
+      </p>
+
+      <h2>2. Information We Collect.</h2>
+      <p>We collect the following types of information:</p>
+      <ul>
+        <li><strong>IP Address.</strong> We collect and hash your IP address for rate limiting purposes and to maintain session continuity.</li>
+        <li><strong>Chat Messages.</strong> We temporarily store your chat messages and AI responses to provide conversation context and chat history functionality.</li>
+        <li><strong>Usage Data.</strong> We collect information about how you interact with the Service, including timestamps and selected modes.</li>
+        <li><strong>Technical Data.</strong> We may collect browser type, device information, and other technical data for analytics and service improvement.</li>
+      </ul>
+
+      <h2>3. How We Use Your Information.</h2>
+      <p>We use collected information for the following purposes:</p>
+      <ul>
+        <li>To provide and maintain the Service.</li>
+        <li>To enforce rate limits and prevent abuse.</li>
+        <li>To provide conversation context and chat history.</li>
+        <li>To improve and optimize the Service.</li>
+        <li>To monitor for security threats and violations of our Terms.</li>
+        <li>To comply with legal obligations.</li>
+      </ul>
+
+      <h2>4. Data Retention.</h2>
+      <p>
+        Chat history and session data are retained for 24 hours and then automatically deleted.
+        IP address hashes are retained only for rate limiting purposes and reset daily.
+        We do not permanently store your conversations or personal information.
+      </p>
+
+      <h2>5. Data Security.</h2>
+      <p>
+        We implement industry-standard security measures to protect your data.
+        IP addresses are hashed before storage to protect your identity.
+        All data transmission is encrypted using HTTPS.
+        However, no method of transmission over the Internet is completely secure, and we cannot guarantee absolute security.
+      </p>
+
+      <h2>6. Third-Party Services.</h2>
+      <p>We use the following third-party services:</p>
+      <ul>
+        <li><strong>Anthropic Claude.</strong> Your messages are processed by Anthropic's Claude AI to generate responses. Please refer to Anthropic's privacy policy for their data practices.</li>
+        <li><strong>Vercel.</strong> The Service is hosted on Vercel. Vercel may collect technical data as described in their privacy policy.</li>
+        <li><strong>Upstash (Optional).</strong> If configured, rate limiting data may be stored in Upstash Redis.</li>
+      </ul>
+
+      <h2>7. Cookies and Tracking.</h2>
+      <p>
+        We do not use cookies for tracking purposes.
+        Session identification is based on IP address hashing.
+        We may use essential cookies for service functionality if required.
+      </p>
+
+      <h2>8. Your Rights.</h2>
+      <p>Depending on your jurisdiction, you may have the following rights:</p>
+      <ul>
+        <li>The right to access your personal data.</li>
+        <li>The right to request deletion of your data.</li>
+        <li>The right to object to data processing.</li>
+        <li>The right to data portability.</li>
+        <li>The right to withdraw consent.</li>
+      </ul>
+      <p>
+        Since we retain minimal data and automatically delete it within 24 hours, most data is not available for retrieval.
+        To exercise your rights, please contact us through the Service.
+      </p>
+
+      <h2>9. Children's Privacy.</h2>
+      <p>
+        The Service is not intended for children under the age of 13.
+        We do not knowingly collect personal information from children.
+        If you believe a child has provided us with personal information, please contact us immediately.
+      </p>
+
+      <h2>10. International Data Transfers.</h2>
+      <p>
+        Your data may be processed in countries other than your own.
+        We ensure appropriate safeguards are in place for international data transfers.
+        By using the Service, you consent to the transfer of your data to other jurisdictions.
+      </p>
+
+      <h2>11. Changes to This Policy.</h2>
+      <p>
+        We may update this Privacy Policy from time to time.
+        We will notify you of any changes by posting the new policy on this page.
+        Changes are effective immediately upon posting.
+        Your continued use of the Service after changes constitutes acceptance of the updated policy.
+      </p>
+
+      <h2>12. Contact Us.</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us through the Service.
+        We are committed to addressing your privacy concerns and will respond within a reasonable timeframe.
+      </p>
+
+      <h2>13. Legal Basis for Processing.</h2>
+      <p>
+        We process your data based on the following legal grounds:
+      </p>
+      <ul>
+        <li><strong>Contract.</strong> Processing is necessary to provide the Service you requested.</li>
+        <li><strong>Legitimate Interest.</strong> Processing is necessary for our legitimate interests, such as security and service improvement.</li>
+        <li><strong>Consent.</strong> You have given consent for specific processing activities.</li>
+        <li><strong>Legal Obligation.</strong> Processing is necessary to comply with legal requirements.</li>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; {new Date().getFullYear()} Persephone. All rights reserved.</p>
+      <nav class="footer-links" aria-label="Legal">
+        <a href="/terms">Terms of Service</a>
+        <a href="/privacy">Privacy Policy</a>
+      </nav>
+    </footer>
+  </body>
+</html>

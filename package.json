@@ -1,0 +1,31 @@
+{
+  "name": "persephone-chat",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The world's most intelligent Feminine Platform Engineer in the hood.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/vercel": "^7.8.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "astro": "^4.16.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "typescript": "^5.6.3",
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  }
+}
